@@ -16,3 +16,11 @@ carMakers.push(100);
 carMakers.map((car: string): string => {
   return car.toUpperCase();
 });
+
+// Flexible types
+const importantDates = [new Date(), "2030-10-10"];
+
+// Overriding type inference
+const arrayTypeOverriding: (Date | string | number)[] = [];
+arrayTypeOverriding.push("2030-10-10");
+arrayTypeOverriding.push(new Date());
