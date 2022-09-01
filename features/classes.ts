@@ -1,4 +1,14 @@
 class Vehicle {
+  /*
+  color: string;
+
+  constructor(color: string) {
+    this.color = color;
+  }
+  */
+  // The above equivalent of the above piece of code
+  constructor(public color: string) {}
+
   public drive(): void {
     console.log("Get Set Go!!!");
   }
@@ -8,6 +18,10 @@ class Vehicle {
   }
 }
 
+const vehicle = new Vehicle("orange");
+console.log(vehicle.color);
+
+/*
 class Car extends Vehicle {
   // You cannot change access modifiers when overwriting methods.
   drive(): void {
@@ -27,3 +41,4 @@ class Car extends Vehicle {
 
 const car = new Car();
 car.startDrivingProcess();
+*/
