@@ -27,3 +27,17 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 - Can contain real implementation for some methods
 - The implemented methods can refer to other methods that don't actually exist yet (we still have to provide names and types for the un-implemented methods)
 - Can make child classes promise to implement some other method
+
+### Inheritance vs Abstract Classes:
+
+#### Inheritance -
+
+1. Sets up a contract between different classes
+2. Use when we have very different objects that we want to work together
+3. Promotes loose coupling
+
+#### Abstract Classes -
+
+1. Sets up a contract between different classes
+2. Use when we are trying to build up a definition of an object
+3. Strongly couples classes together
