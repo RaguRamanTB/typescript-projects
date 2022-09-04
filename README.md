@@ -14,3 +14,8 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 6. `npm install nodemon` - nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 7. `npm install concurrently` - Run multiple commands concurrently. Like npm run watch-js & npm run watch-less but better.
 8. `tsc -w` - TS Compiler in watch mode.
+
+### Type Guards:
+
+- **typeof** - Narrow type of a value to a primitive type (i.e., number, string, boolean, symbol)
+- **instanceof** - Narrow down every other type of value (i.e., every other value that is created with a constructor function)
