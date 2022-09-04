@@ -11,3 +11,5 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 3. `npm install -g parcel-bundler` - Tool to help us run Typescript in the browser
 4. `npm install @faker-js/faker` - Generate massive amounts of fake (but realistic) data for testing and development.
 5. `npm install @types/google.maps` - Type definitions for Google Maps JavaScript API
+6. `npm install nodemon` - nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+7. `npm install concurrently` - Run multiple commands concurrently. Like npm run watch-js & npm run watch-less but better.
