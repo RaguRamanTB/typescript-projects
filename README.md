@@ -13,3 +13,4 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 5. `npm install @types/google.maps` - Type definitions for Google Maps JavaScript API
 6. `npm install nodemon` - nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 7. `npm install concurrently` - Run multiple commands concurrently. Like npm run watch-js & npm run watch-less but better.
+8. `tsc -w` - TS Compiler in watch mode.
