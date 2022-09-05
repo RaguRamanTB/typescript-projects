@@ -12,10 +12,13 @@ const matches = fs_1.default
     .map((row) => {
     return row.split(",");
 });
+const homeWin = "H";
+const awayWin = "A";
+const draw = "D";
 let manUnitedWins = 0;
 for (let match of matches) {
-    if ((match[1] === "Man United" && match[5] === "H") ||
-        (match[2] === "Man United" && match[5] === "A")) {
+    if ((match[1] === "Man United" && match[5] === homeWin) ||
+        (match[2] === "Man United" && match[5] === awayWin)) {
         manUnitedWins++;
     }
 }
