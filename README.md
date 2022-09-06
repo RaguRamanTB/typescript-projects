@@ -42,3 +42,10 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 1. Sets up a contract between different classes
 2. Use when we are trying to build up a definition of an object
 3. Strongly couples classes together
+
+### Enums:
+
+- Follow near-identical syntax rules as normal objects
+- Creates an object with the same keys and values when converted from TS to JS
+- Primary goal is to signal to other engineers that these are all closely related values
+- Use whenever we have a small fixed set of values that are all closely related and known at compile time
