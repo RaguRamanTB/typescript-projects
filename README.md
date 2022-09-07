@@ -55,3 +55,8 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 - Like function arguments, but for types in class/function definitions
 - Allows us to define the type of a property/argument/return value at a future point
 - Used heavily when writing reusable code
+
+### Inheritance vs Composition:
+
+- **Inheritance** is characterized by an "_is-a_" relationship between two classes.
+- **Composition** is characterized by an "_has-a_" relationship between two classes.
