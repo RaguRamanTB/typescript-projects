@@ -60,3 +60,7 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 
 - **Inheritance** is characterized by an "_is-a_" relationship between two classes.
 - **Composition** is characterized by an "_has-a_" relationship between two classes.
+
+### Optional Interface Properties:
+
+- A `?` after the property key lets the interface property to be optional
