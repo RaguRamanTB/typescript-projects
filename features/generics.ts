@@ -24,3 +24,20 @@ class ArrayOfAnything<T> {
 
 console.log(new ArrayOfAnything<string>(["a", "b", "c"]).get(1));
 console.log(new ArrayOfAnything<number>([1, 2, 3]).get(1));
+
+// Example of generics with functions
+
+function printStrings(arr: string[]): void {
+  arr.forEach((value) => console.log(value));
+}
+
+function printNumbers(arr: number[]): void {
+  arr.forEach((value) => console.log(value));
+}
+
+function printAnything<T>(arr: T[]): void {
+  arr.forEach((value) => console.log(value));
+}
+
+printAnything([1, 2, 3, 4, 5]);
+printAnything(["a", "b", "c", "d", "e"]);
