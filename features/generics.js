@@ -25,8 +25,8 @@ var ArrayOfAnything = /** @class */ (function () {
     };
     return ArrayOfAnything;
 }());
-console.log(new ArrayOfAnything(["a", "b", "c"]).get(1));
-console.log(new ArrayOfAnything([1, 2, 3]).get(1));
+// console.log(new ArrayOfAnything<string>(["a", "b", "c"]).get(1));
+// console.log(new ArrayOfAnything<number>([1, 2, 3]).get(1));
 // Example of generics with functions
 function printStrings(arr) {
     arr.forEach(function (value) { return console.log(value); });
@@ -37,5 +37,29 @@ function printNumbers(arr) {
 function printAnything(arr) {
     arr.forEach(function (value) { return console.log(value); });
 }
-printAnything([1, 2, 3, 4, 5]);
-printAnything(["a", "b", "c", "d", "e"]);
+// printAnything([1, 2, 3, 4, 5]);
+// printAnything(["a", "b", "c", "d", "e"]);
+// Generic Constraints
+var Car = /** @class */ (function () {
+    function Car() {
+    }
+    Car.prototype.print = function () {
+        console.log("I am a car");
+    };
+    return Car;
+}());
+var House = /** @class */ (function () {
+    function House() {
+    }
+    House.prototype.print = function () {
+        console.log("I am a house");
+    };
+    return House;
+}());
+function printCarsOrHouses(arr) {
+    for (var i = 0; i < arr.length; i++) {
+        arr[i].print();
+    }
+}
+printCarsOrHouses([new House(), new House()]);
+printCarsOrHouses([new Car(), new Car()]);
