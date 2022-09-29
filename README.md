@@ -4,7 +4,7 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 
 ## Notes
 
-### Commands Used:
+### Dependencies Used:
 
 1. `npm install -g typescript` - TypeScript is a language for application-scale JavaScript.
 2. `npm install -g ts-node` - TypeScript execution and REPL (Read-Eval-Print-Loop) for Node.js
@@ -15,6 +15,8 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 7. `npm install concurrently` - Run multiple commands concurrently. Like npm run watch-js & npm run watch-less but better.
 8. `tsc -w` - TS Compiler in watch mode.
 9. `npm install @types/node` - Type Definition files for Node.js and its libraries.
+10. `npm install json-server` - Backend JSON Server
+11. `npm install axios` - To make HTTP network calls
 
 ### Type Guards:
 
