@@ -20,6 +20,6 @@ router.get('/login', (req, res) => {
   `);
 });
 router.post('/login', (req, res) => {
-    const { email, passoword } = req.body;
-    res.send(email + passoword);
+    const { email, password } = req.body;
+    res.send(email + password);
 });
