@@ -1,7 +1,11 @@
-import { User } from '../models/User';
+import { Model } from '../models/Model';
 
-export abstract class View {
-  constructor(public parent: Element | null, public model: User) {
+interface HasId {
+  id?: number;
+}
+
+export abstract class View<T extends Model<K>, K extends HasId> {
+  constructor(public parent: Element, public model: T) {
     this.bindModel();
   }
 
@@ -25,17 +29,13 @@ export abstract class View {
   }
 
   render(): void {
-    if (this.parent) {
-      this.parent.innerHTML = '';
-    }
+    this.parent.innerHTML = '';
 
     const templateElement = document.createElement('template');
     templateElement.innerHTML = this.template();
 
     this.bindEvents(templateElement.content);
 
-    if (this.parent) {
-      this.parent.append(templateElement.content);
-    }
+    this.parent.append(templateElement.content);
   }
 }
