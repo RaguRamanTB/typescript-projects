@@ -2,33 +2,8 @@
   "users": [
     {
       "id": 1,
-      "name": "Aakash",
-      "age": 19
-    },
-    {
-      "name": "New Record",
-      "age": 9999,
-      "id": 2
-    },
-    {
-      "name": "New Record",
-      "age": 9999,
-      "id": 3
-    },
-    {
-      "name": "New Record",
-      "age": 9999,
-      "id": 4
-    },
-    {
-      "name": "New Record",
-      "age": 9999,
-      "id": 5
-    },
-    {
-      "name": "New Record",
-      "age": 9999,
-      "id": 6
+      "name": "Ragu",
+      "age": 22
     }
   ]
 }
