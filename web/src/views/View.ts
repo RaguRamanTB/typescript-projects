@@ -13,7 +13,9 @@ export abstract class View<T extends Model<K>, K extends HasId> {
 
   abstract template(): string;
 
-  regionsMap(): { [key: string]: string } {}
+  regionsMap(): { [key: string]: string } {
+    return {};
+  }
 
   eventsMap(): { [key: string]: () => void } {
     return {};
