@@ -66,3 +66,11 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 ### Optional Interface Properties:
 
 - A `?` after the property key lets the interface property to be optional
+
+### TypeScript Decorator:
+
+- Functions that can be used to modify/change/anything/different properties/methods in the class
+- Not same as JavaScript decorators
+- Used inside/on classes only
+- Understanding the order in which decorators are ran are the key to understanding them
+- It is Experimental! (Bound to change)
