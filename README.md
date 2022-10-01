@@ -74,6 +74,7 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 - Used inside/on classes only
 - Understanding the order in which decorators are ran are the key to understanding them
 - It is Experimental! (Bound to change)
+- **Decorator Factory** - A decorator that returns a function
 
 #### Decorators on a property, method, accessor
 
