@@ -74,3 +74,10 @@ Typescript projects taught in "Typescript: The Complete Developer's Guide" cours
 - Used inside/on classes only
 - Understanding the order in which decorators are ran are the key to understanding them
 - It is Experimental! (Bound to change)
+
+#### Decorators on a property, method, accessor
+
+- First argument is the prototype of the object
+- Second argument is the key of the property/method/accessor on the object
+- Third argument is the property descriptor
+- Decorators are applied when the code for this class is ran (not when an instance is created)
