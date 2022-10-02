@@ -5,15 +5,13 @@ interface AppProps {
   color?: string;
 }
 
-interface AppState {
-  counter: number;
-}
+const App = (props: AppProps): JSX.Element => {
+  return <div>{props.color}</div>;
+};
 
-class App extends React.Component<AppProps, AppState> {
-  constructor(props: AppProps) {
-    super(props);
-    this.state = { counter: 0 };
-  }
+/*
+class App extends React.Component<AppProps> {
+  state = { counter: 0 };
 
   onIncrement = (): void => {
     this.setState({
@@ -37,5 +35,6 @@ class App extends React.Component<AppProps, AppState> {
     );
   }
 }
+*/
 
 ReactDOM.render(<App color='red' />, document.querySelector('#root'));
