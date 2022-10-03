@@ -1,6 +1,6 @@
 # Typescript: The Complete Developer's Guide
 
-Typescript projects taught in "Typescript: The Complete Developer's Guide" course
+Typescript projects worked on "Typescript: The Complete Developer's Guide" course
 
 ## Notes
 
